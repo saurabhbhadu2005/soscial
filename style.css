@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.topnav {
+  width: 100%;
+    overflow: hidden;
+  height: auto;
+  background-color: #f1f1f1;
+  }
+  
+  .topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  @media screen and (max-width:600px){
+    .topnav a{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .topnav img{
+    float: left;
+    color:black;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    color: red;
+  }
+  
+  .topnav a.active {
+    color:red;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  .img1{
+    width: 200px;
+  }
+  .school-img{
+    width: 100%;
+   height:auto;
+}
+.school{
+  width: 100%;
+  background-color: aquamarine;
+  position:absolute;
+  text-align: justify;
+}
+.input-button:hover{
+  background-color: red;
+  color: white;
+}
